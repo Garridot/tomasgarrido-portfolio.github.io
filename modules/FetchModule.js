@@ -6,25 +6,34 @@ export const DataFetcher = (() => {
   const backupData = [
       {
           "id": 1,
+          "title": "Spotify Streaming Reports",
+          "skills": "Python,Flask,Spotify API,Javascript, OpenIA API, CloudAMQP",
+          "labels": "API-Web Services Development,Data Analytics,Spotify Wrapped",
+          "description": `Python project that retrieves and reports a user's Spotify usage, weekly highlights, and patterns while generating personalized recommendations using AI.`,
+          "link_project": "https://github.com/Garridot/spotify-streaming-reports",
+          "link_github": "https://github.com/Garridot/spotify-streaming-reports",
+      },
+      {
+          "id": 2,
           "title": "Football Players Chart",
           "skills": "Python,Django Rest Framework,Flask,Pandas,JSON Web Token,Beautiful Soup,Javascript",
           "labels": "API-Web Services Development,Data Analytics,Web Scraping",
-          "description": `The project involves extracting, cleaning, visualizing, and saving data on athletes' performance. It consists of APIs that carry out operations independently and communicate with one another. Data extraction is performed using BeautifulSoup and Pandas, API, and authentication are handled with Django Rest, and the frontend is developed using JavaScript and graph.js.`,
+          "description": `Football Players Stats API is a project designed to manage athletes' performance data to illustrate their impact and goal contributions in their careers.`,
           "link_project": "https://football-players-charts.onrender.com/",
           "link_github": "https://github.com/Garridot/football-players-stats-api",
       },
       {
-          "id": 2,
+          "id": 3,
           "title": "Ruins of Versailles",
           "skills": "Python,Django Rest Framework,Javascript",
           "labels": "API/Web Services Development, E-commerce Project",
-          "description": `Developed a RESTful API for an e-commerce platform of a store, implementing multi-currency functionality to dynamically display product values in Argentine pesos and US dollars, and keeping the product values updated. Transactions are processed using PayPal.
+          "description": `RESTful API for an e-commerce platform of a store about a paintings shop. Implement multi-currency functionality to dynamically display product values. Transactions are processed using PayPal.
           `,
           "link_project": "https://ruins-of-versailles-7rbc.onrender.com/",
           "link_github": "https://github.com/Garridot/Ruins-of-Versailles_Ecommerce-Project",
       },
       {
-          "id": 3,
+          "id": 4,
           "title": "Inflation Calculator",
           "skills": "Python,Redis,Django,Websockets,Celery",
           "labels": "API/Web Services Development,",
@@ -32,7 +41,7 @@ export const DataFetcher = (() => {
           "link_github": "https://github.com/Garridot/inflation_calculator",
       },
       {
-          "id": 4,
+          "id": 5,
           "title": "IAM System Project",
           "skills": "Python,Redis,Django,Websockets,Celery",
           "labels": "API Services Development,",
@@ -78,13 +87,18 @@ export const DataFetcher = (() => {
 
 export const backupDataImages = {
     "1":[
-      "./media/project1%231.jpg",
+      "./media/project1%231.png",
       "./media/project1%232.png",
       "./media/project1%233.png",      
     ],
-    "2":[        
-      "./media/project2%231.png",            
+    "2":[
+      "./media/project2%231.png",
       "./media/project2%232.png",
-      "./media/project2%233.png",
+      "./media/project2%233.png",      
+    ],
+    "3":[        
+      "./media/project3%231.png",            
+      "./media/project3%232.png",
+      "./media/project3%233.png",
       ],
 }  

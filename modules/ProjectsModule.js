@@ -17,7 +17,7 @@ export const ProjectRender = (() => {
     const lenProjects = data.length;
     const fragment = document.createDocumentFragment(); 
 
-    for (let i = 3; i <= lenProjects; i++) {
+    for (let i = 4; i <= lenProjects; i++) {
       const card = document.createElement('li');
       card.className = 'projects__list--row flex wrap space-between';
       card.id = i;
@@ -75,7 +75,7 @@ export const ProjectRender = (() => {
     // const lenProjects = data.length;
     const fragment = document.createDocumentFragment(); 
 
-    for (let i = 1; i <= 2; i++) {
+    for (let i = 1; i <= 3; i++) {
       const card = document.createElement('div');
       card.className = 'projects__card flex wrap space-between';
       card.id = i;
@@ -131,6 +131,7 @@ export const ProjectRender = (() => {
           <div class="col col-3">
               <div class="projects__tech flex center">                  
                   <ul class="projects__tech-list flex wrap">
+                    <li class="projects__tech-item body__text"><p style="opacity: 1; transition-duration: 1s; transform: none;">Labels:</p></li>
                     ${listLabels}
                   </ul>
               </div>
@@ -143,6 +144,7 @@ export const ProjectRender = (() => {
           <div class="col col-3">
               <div class="projects__tech flex center">
                   <ul class="projects__tech-list flex wrap">
+                    <li class="projects__tech-item body__text"><p style="opacity: 1; transition-duration: 1s; transform: none;">Techs: </p></li>
                       ${listTech}
                   </ul>
               </div>
